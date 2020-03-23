@@ -34,7 +34,7 @@
     "eth-sig-util": "2.3.0",
     "ethereumjs-abi": "0.6.7",
     "ethereumjs-account": "3.0.0",
-    "ethereumjs-vm": "https://github.com/celo-org/ethereumjs-vm.git#0fd539c",
+    "ethereumjs-vm": "/home/sami/ethereumjs-vm/packages/vm",
     "ethereumjs-block": "2.2.2",
     "ethereumjs-common": "1.5.0",
     "ethereumjs-tx": "2.1.2",

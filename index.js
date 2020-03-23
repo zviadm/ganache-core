@@ -18,6 +18,7 @@ try {
     debug("Optional dependencies installed; exporting ganache-core with native optional dependencies.");
   }
 } catch (nativeError) {
+  console.error(nativeError);
   debug(nativeError);
 
   // grabbing the native/optional deps failed, try using our webpacked build.
