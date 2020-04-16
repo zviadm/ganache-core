@@ -12,9 +12,9 @@ declare module "ganache-core" {
       default_balance_ether?: number;
       fork?: string | object;
       fork_block_number?: string | number;
-      gasLimit?: number;
+      gasLimit?: string | number;
       gasPrice?: string;
-      hardfork?: "byzantium" | "constantinople" | "petersburg";
+      hardfork?: "byzantium" | "constantinople" | "petersburg" | "istanbul" | "muirGlacier";
       hd_path?: string;
       locked?: boolean;
       logger?: {
